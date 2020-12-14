@@ -8,7 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "yarn build && next export",
+    "deploy": "npm run  build && next export",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
   },
   "author": "Guilherme Louro",
